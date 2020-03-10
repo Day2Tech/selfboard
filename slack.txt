@@ -1,0 +1,34 @@
+[
+	{
+		"type": "section",
+		"text": {
+			"type": "mrkdwn",
+			"text": "@simone, your account will be activated as soon as a coworker clicks approve on this message. \n\nIf you are the coworker, you should know before approving:\n- @simone is asking for access to *GitHub* with username *<https://github.com/chauffer|chauffer>*.\n- Please verify the authenticity of this request by asking the person in an out of band way (e.g. phone call).\n"
+		}
+	},
+	{
+		"type": "actions",
+		"elements": [
+			{
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"emoji": true,
+					"text": "Approve"
+				},
+				"style": "primary",
+				"value": "approve"
+			},
+			{
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"emoji": true,
+					"text": "Deny"
+				},
+				"style": "danger",
+				"value": "deny"
+			}
+		]
+	}
+]
